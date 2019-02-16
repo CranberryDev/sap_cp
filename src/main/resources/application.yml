@@ -1,0 +1,6 @@
+url:
+  weather: "http://api.openweathermap.org/data/2.5/weather"
+  city-param: "q="
+  api-param: "&APPID="
+  api-key: "3e4397cc3d27485de127ad43c26f9883"
+  units-metric: "&units=metric"
