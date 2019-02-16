@@ -85,3 +85,12 @@
 /target/sapmaven/WEB-INF/lib/spring-web-4.3.22.RELEASE.jar
 /target/sapmaven/WEB-INF/lib/spring-webmvc-4.3.22.RELEASE.jar
 /target/sapmaven/WEB-INF/lib/validation-api-1.1.0.Final.jar
+/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml
+/target/classes/com/artem_agayev/sapcp/configurations/MapperConfig.class
+/target/classes/com/artem_agayev/sapcp/filter/CORSFilter.class
+/target/classes/com/artem_agayev/sapcp/outer_rest_api/TemperatureResource$TemperatureResourceBuilder.class
+/target/classes/com/artem_agayev/sapcp/resources/WeatherServlet.class
+/target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/configurations/MapperConfig.class
+/target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/filter/CORSFilter.class
+/target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/outer_rest_api/TemperatureResource$TemperatureResourceBuilder.class
+/target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/resources/WeatherServlet.class

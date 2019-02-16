@@ -2,6 +2,7 @@ package com.artem_agayev.sapcp.outer_rest_api;
 
 import com.artem_agayev.sapcp.dto.TemperatureDTO;
 import com.artem_agayev.sapcp.dto.TemperatureResponseDTO;
+import lombok.Builder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -10,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Optional;
 
 @Component
+@Builder
 public class TemperatureResource {
 
     private RestTemplate restTemplate;
