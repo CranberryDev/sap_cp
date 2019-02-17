@@ -4,5 +4,5 @@ url:
   api-param: "&APPID="
   api-key: "3e4397cc3d27485de127ad43c26f9883"
   units-metric: "&units=metric"
-#server:
-#  port: 8081
+server:
+  port: 8081
