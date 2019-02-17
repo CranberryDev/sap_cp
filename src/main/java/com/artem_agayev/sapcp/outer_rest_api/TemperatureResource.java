@@ -45,6 +45,7 @@ public class TemperatureResource {
      * @return
      */
     public TemperatureResponseDTO getTemperatureInCity(String cityName) {
+
         String rqUrl = URL + "?" + CITY_PARAM + cityName + API_PARAM + API_KEY + UNITS_METRIC;
 
         Optional<TemperatureDTO> rs = Optional.ofNullable(restTemplate.getForObject(rqUrl, TemperatureDTO.class));

@@ -94,3 +94,14 @@
 /target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/filter/CORSFilter.class
 /target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/outer_rest_api/TemperatureResource$TemperatureResourceBuilder.class
 /target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/resources/WeatherServlet.class
+/.gradle/5.2.1/executionHistory/executionHistory.bin
+/.gradle/5.2.1/executionHistory/executionHistory.lock
+/.gradle/5.2.1/fileChanges/last-build.bin
+/.gradle/5.2.1/fileHashes/fileHashes.bin
+/.gradle/5.2.1/fileHashes/fileHashes.lock
+/.gradle/5.2.1/gc.properties
+/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+/.gradle/buildOutputCleanup/cache.properties
+/.gradle/buildOutputCleanup/outputFiles.bin
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
