@@ -105,3 +105,5 @@
 /.gradle/buildOutputCleanup/outputFiles.bin
 /gradle/wrapper/gradle-wrapper.jar
 /gradle/wrapper/gradle-wrapper.properties
+/target/classes/com/artem_agayev/sapcp/configurations/ServletConfig.class
+/target/sapmaven/WEB-INF/classes/com/artem_agayev/sapcp/configurations/ServletConfig.class

@@ -74,6 +74,15 @@
                 <finalName>sapmaven</finalName>
             </build>
         </profile>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <packaging.type>jar</packaging.type>
+            </properties>
+            <build>
+                <finalName>sapmaven_dev</finalName>
+            </build>
+        </profile>
     </profiles>
 
 </project>

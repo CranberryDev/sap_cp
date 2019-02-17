@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Component
-@WebServlet(urlPatterns = {"/servlet"}, asyncSupported = true)
+@WebServlet(urlPatterns = {"/servlet"})
 public class WeatherServlet extends HttpServlet {
 
     private TemperatureResource temperatureResource;
@@ -38,12 +38,18 @@ public class WeatherServlet extends HttpServlet {
         resp.getWriter().print(jsonObj);
     }
 
+    @Override
+    protected void doOptions(HttpServletRequest req,
+                             HttpServletResponse resp) {
+        setAccessControlHeaders(resp);
+        resp.setStatus(HttpServletResponse.SC_OK);
+    }
 
     private void setAccessControlHeaders(HttpServletResponse resp) {
         resp.addHeader("Access-Control-Allow-Origin", "*");
-        resp.addHeader("Access-Control-Allow-Methods", "GET");
-        resp.addHeader("Access-Control-Allow-Headers", "Origin, Content-Type, Accept");
-        resp.addHeader("Access-Control-Max-Age", "86400");
+        resp.addHeader("Access-Control-Allow-Credentials", "true");
+        resp.addHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
+        resp.addHeader("Access-Control-Allow-Headers", "Origin,Content-Type, Accept");
     }
 
 }
